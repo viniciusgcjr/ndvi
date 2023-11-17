@@ -22,7 +22,7 @@ def main():
         url = f'{root_folder}/{selected_year}/{selected_month:02d}/{selected_day}/METOP_AVHRR_{selected_year}{selected_month:02d}{selected_day}_S10_AMs_NDV.png'
 
         # Display the image
-        st.image(f'{url}', caption='Image', use_column_width=True)
+        st.image(f'{url}', use_column_width=True)
 
 if __name__ == '__main__':
     main()
